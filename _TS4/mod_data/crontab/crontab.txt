@@ -1,0 +1,12 @@
+# * _ _ _ _ - Minute
+# _ * _ _ _ - Hour
+# _ _ * _ _ - Weekdays 0-6 (or Su,Mo,Tu,We,Th,Fr,Sa) [not implemented]
+# _ _ _ * _ - Seasons 0-3 (or Summer,Fall,Winter,Spring) [not implemented]
+# _ _ _ _ * - Moon phases: 0-7 (or New_Moon,Waxing_Crecent,First_Quater,Waxing_Gibbous,Full_Moon,Waning_Gibbous,Third_Quarter,Waning_Crecent) [not implemented]
+# _ _ _ _ _ class_method_to_be_called - Full name including the class.
+# _ _ _ _ _ _ arg1 arg2 ... - All method arguments. [optional]
+# _ _ _ _ _ _ _ # jobId - Append '  # ' and behind it a unique job-id. This allows to modify an existing job without creating a new one. [optional]
+
+30 * * * * schedule_it.jobs.job.Job.run o19:doIt  # o19:doIt
+0 * * * * schedule_it.jobs.job.Job.run o19:android  # o19:android
+5/10 * * * * schedule_it.jobs.job.Job.run o19:arcade  # o19:arcade
