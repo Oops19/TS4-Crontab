@@ -28,7 +28,6 @@ class ModInfo(CommonModInfo):
 r'''
 v1.0.0.
     Fix compatibility with TS4Library 1.0.0.
-    
 v0.8.0
     Initial beta version
 '''
