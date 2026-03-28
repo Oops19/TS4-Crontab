@@ -1,5 +1,5 @@
-Crontab v1.0.0 for The Sims 4 v1.121.342 and S4CL v3.17
-Created on 2026-02-04
+Crontab v1.0.0 for The Sims 4 v1.121.372 and S4CL v3.20
+Created on 2026-03-16
 v1.0.0.
     Fix compatibility with TS4Library 1.0.0.
 
